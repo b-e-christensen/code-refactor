@@ -1,4 +1,9 @@
 Changes made: 
 Header class changed to <header> 
-Seperated CSS elements with line breaks instead of spaces for easier visibilitly. 
+
 Fixed broken anchor link within web page. 
+
+Collapsed classes in CSS selector to be grouped with others with the same attributes. 
+
+--TO DO-- 
+change div elements to semantic html elements. Right off the bat I can see the header div would be better as a <nav>
