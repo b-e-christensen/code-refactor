@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    font-size: 16px;
 }
 
 header {
@@ -46,10 +47,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 figure img {
     height: 800px;
     width: 100%;
@@ -57,9 +54,23 @@ figure img {
     object-fit: cover;
 }
 
-main section article:nth-child(odd) img {
-    float: left;
-    margin-right: 25px;
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+main section article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main section article img {
+    max-height: 200px;
 }
 
 main section article:nth-child(even) img {
@@ -67,10 +78,14 @@ main section article:nth-child(even) img {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+main section article:nth-child(odd) img {
+    float: left;
+    margin-right: 25px;
+}
+
+main section article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 aside {
@@ -98,24 +113,6 @@ aside section article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-main section article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main section article img {
-    max-height: 200px;
-}
-
-main section article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
